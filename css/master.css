@@ -1,0 +1,100 @@
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding : 0;
+}
+
+nav li{
+	display: inline-block;
+	width: 250px;
+	height: 80px;
+	line-height: 90px;
+	font-size: 2em;
+}
+
+nav li a{
+	display: block;
+	color: black;
+	text-decoration: none;
+}
+
+nav li :hover{
+	color: white;
+	background-color: black;
+	}
+
+
+header{
+	height: 90px;
+	background-color: white;
+
+}
+
+
+h1{
+  position: absolute;
+  padding-left: 35vh;
+    border-bottom: 3px solid black;
+}
+
+
+.block-parent1{
+ display: flex;
+ justify-content:left;
+ flex-direction: row;
+}
+
+.block01{
+background: url(images/image02.jpg) no-repeat;
+max-height: 70vh;
+width: 60vh;
+margin-top: 30vh;
+margin-left: 20vh;
+margin-right: 10vh;
+padding : 10vh;
+padding-top: 22vh;
+margin-bottom: 10vh;
+}
+
+.block012{
+  height: 70vh;
+  width: 40vh;
+  padding-top: 45vh;
+}
+
+.block02{
+  background: white;
+  max-height: 70vh;
+  padding: 10vh;
+  padding-left: 50vh;
+  padding-right: 50vh;
+  padding-bottom: 10vh;
+  border-top: 3px dotted black;
+
+}
+#T03{
+  padding-bottom: 4vh;
+    border-bottom: 2px solid white;
+}
+
+.block03{
+background: url(images/image03.jpg) no-repeat;
+  background-attachment: fixed;
+max-height: 50vh;
+padding: 30vh;
+}
+
+.block-parent4{
+  display: flex;
+  justify-content:left;
+  flex-direction: row;
+}
+#img5{
+  max-height: 100vh;
+}
+
+.block04{
+  background-color: #efefef;
+  height: 100vh;
+  padding-right: 30vh;
+}
